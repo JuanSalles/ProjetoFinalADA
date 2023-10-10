@@ -29,7 +29,7 @@ export const renderHeader = () => {
 
   const a = document.createElement('a')
   const li = document.querySelector('li')
-  a.text = 'Personagens'
+  a.text = 'Agentes'
   const route = navigationRoutes[1];
   a.href = `#${route.path}`
 
